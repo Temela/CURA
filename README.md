@@ -1,9 +1,9 @@
+# CURA: A Compassion-Driven Health Monitoring System for Elderly Clergy
 
 <p align="center">
   <img src="banner.png" alt="CURA Banner" />
 </p>
 
-# CURA: A Compassion-Driven Health Monitoring System for Elderly Clergy
 
 ## ✨ About CURA
 
