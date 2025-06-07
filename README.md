@@ -43,20 +43,78 @@
 
 ---
 
-## 📁 Repository Contents
+## 🧪 Data (Simulated)
 
+The dataset includes daily logs from **45 elderly clergy members** with:
+- Age, Sex, Residence
+- Blood Pressure (SBP/DBP)
+- Glucose, Pulse, SPO2
+- Energy levels, Mood scores
+
+📁 `data/cura_45_elderly_health_data.csv`
+
+---
+
+## 🧠 Features
+
+- ✅ Simple **Streamlit dashboard**
+- 📊 Visual summaries for each health metric
+- 🧘🏽 Mood and energy tracking
+- 🔐 No personal identifiers (privacy-aware)
+- 📖 Built-in ethical rationale (see whitepaper)
+
+---
+
+## 📂 Project Structure
+
+```bash
+CURA/
+│
+├── data/
+│   └── cura_45_elderly_health_data.csv
+│
+├── app/
+│   └── CURA_app.py  ← Launch dashboard with `streamlit run CURA_app.py`
+│
+├── notebooks/
+│   └── CURA_Health_Data_Analysis.ipynb
+│
+├── figures/
+│   └── [summary charts + visual insights]
+│
+└── docs/
+    └── CURA_HCC_Ethics_Whitepaper.md
 ```
-📂 data/         → Synthetic health data (CSV)
-📂 notebooks/    → Exploratory analysis + model development
-📂 app/          → Streamlit prototype dashboard
-📂 reports/      → Charts and documentation
-📂 docs/         → Ethics whitepaper and HCC design
-📂 figures/      → Mockups, flowcharts
-📄 CURA_Health_Data_Analysis.ipynb
-📄 CURA_HCC_Ethics_Whitepaper.md
-📄 CURA_app.py
-📄 README.md
+
+---
+
+## 🧑🏽‍⚖️ Ethical Considerations
+
+- Designed to **respect aging populations**
+- Avoids profiling or prediction of end-of-life risk
+- Prioritizes **transparency**, **data dignity**, and **contextual care**
+- Grounded in Catholic social teaching and HCC research
+
+See full write-up: [`docs/CURA_HCC_Ethics_Whitepaper.md`](./docs/CURA_HCC_Ethics_Whitepaper.md)
+
+---
+
+## 🚀 Run the App Locally
+
+Install Streamlit and run:
+
+```bash
+pip install -r requirements.txt
+streamlit run app/CURA_app.py
 ```
+
+---
+
+## 📚 Citation
+
+If you're citing this project, please use:
+
+> TChiemela, ND. (2025). *CURA: Compassionate Health Monitoring Platform for Elderly Clergy*. GitHub. https://github.com/Temela/CURA
 
 ---
 
@@ -71,7 +129,7 @@
 
 ## ✝️ About the Author
 
-**Fr. ND (Nduka Anthony, C.S.Sp.)**  
+**Fr. ND**  
 Catholic Priest • Data Scientist • Advocate for Human-Centered Technology  
 Focused on AI for social good, healthcare ethics, and inclusive civic tech.  
 [LinkedIn](https://www.linkedin.com/in/tchiemela) • [GitHub](https://github.com/Temela) • tchiemela@gmail.com
